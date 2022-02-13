@@ -1,5 +1,69 @@
-h2
+.nav-menu li a 
 {
-    background: #ff25;
-    color: blueviolet;
+    color:#ff7500;
+}
+
+li a
+{
+    text-decoration: none;
+}
+.nav-menu
+{
+    background-color:#ffff;
+}
+.registration li a
+{
+    color: #ff7500;
+}
+.menu li a
+{
+    color: rgb(0, 0, 0);
+}
+.main-section
+{
+    background-color:#252420
+}
+h2{
+    color:#fff;
+}
+p{
+    color: #fff;
+}
+.main-section a
+{
+    text-decoration: none;
+    color: #ff7500;
+}
+.secondary-section
+{
+    background-color: #fff;
+}
+.services
+{
+    background-color: #fff;
+}
+.reklama
+{
+    background-color: #252420;
+}
+a
+{
+    text-decoration: none;
+    color: #ff7500;
+}
+.icons
+{
+    color: #fff;
+}
+.footer
+{
+    color: #fff;
+}
+.black a
+{
+    color: black;
+}
+.orange a
+{
+    color:#ff7500;
 }
