@@ -2,19 +2,29 @@
 {
     background-color: #fff;
 }
+.header-section img
+{
+    width: 227px;
+    height: 59.18px;
+}
 .nav-menu li a 
 {
     color:#ff7500;
     font-weight: 500;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1px;
-text-transform: uppercase;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
 }
 
 li a
 {
     text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
 }
 .nav-menu
 {
@@ -28,10 +38,10 @@ li a
 {
     color: rgb(0, 0, 0);
     font-weight: 500;
-font-size: 13px;
-line-height: 15px;
-letter-spacing: 1px;
-text-transform: uppercase;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .heading-hr
 {
@@ -90,20 +100,20 @@ a
 .main-theme
 {
     font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 120%;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
 }
 .content
 {
     width: 387px;
     height: 96px;
     font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 .book-image
 {
@@ -132,17 +142,17 @@ p{
     font-weight: normal;
     font-size: 16px;
     line-height: 150%;
-          letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
     color: #000000; 
 }
 h3
 {
     font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 120%;
-letter-spacing: 0.5px;
-color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #000000;
 }
 .orders h3
 {
@@ -160,30 +170,40 @@ color: #000000;
     left: 48px;
     font-style: normal;}
     p{
-font-weight: normal;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.5px;
-color: #FFFFFF;
-}
-.bottom
-{
-    width: 1440px;
-    left: 507px;
-    background: #F8F8F8;
-}
-.bottom a
-{
-    width: 224px;
-    left: 19px;
-}
-.footer-hr
-{
-    width: 1100px;
-    left: 2px;
-}
-.second-text
-{
-    width: 1110px;
-    left: 419px;
-}
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+    }
+    .bottom
+    {
+        width: 1440px;
+        left: 507px;
+        background: #F8F8F8;
+    }
+    .bottom a
+    {
+        width: 224px;
+        left: 19px;
+    }
+    .footer-hr
+    {
+        width: 1100px;
+        left: 2px;
+        background-color: rgba(37, 36, 32, 0.5);
+        
+    }
+    .second-text
+    {
+        width: 1110px;
+        left: 419px;
+    }
+    .basic
+    {
+        color: #ff7500;
+    }
+    .main-page a
+    {
+        color: #ff7500;
+    }
