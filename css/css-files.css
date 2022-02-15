@@ -15,6 +15,7 @@
     line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-family: roboto;
     
 }
 
@@ -33,6 +34,8 @@ ul{
 .registration li a
 {
     color: #ff7500;
+    font-style: bold;
+    font-family: roboto;
 }
 .menu li a
 {
@@ -42,6 +45,8 @@ ul{
     line-height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-family: roboto;
+    
 }
 .heading-hr
 {
@@ -56,7 +61,7 @@ ul{
 h2{
     color:#fff;
 }
-p{
+.text p{
     color: #fff;
 }
 .main-section a
@@ -100,25 +105,40 @@ a
 .main-theme
 {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 40px;
     line-height: 120%;
+    font-family: roboto condensed;
 }
 .content
 {
     width: 387px;
     height: 96px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    font-family: roboto;
 }
 .book-image
 {
     width: 510px;
     left: 510px;
+}
+.booking a
+{
+    font-family: roboto;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color:white;
+    background-color: #ff7500;
+    width: 152px;
+    height: 39px;
+    
 }
 .secondary-section h2
 {
@@ -130,6 +150,13 @@ a
     color:#000;
     background-color: #FFFFFF;
 }
+.secondary-section h2
+{
+    font-family: Roboto Condensed;
+    Line height: 86px;
+    Font style: Bold;
+    Font size: 72px;
+}
 .circle
 {
     width: 100px;
@@ -137,13 +164,13 @@ a
     background: rgba(255, 117, 0, 0.2);
     
 }
-p{
+/* p{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.5px;
-    color: #000000; 
+    color: #000000;  */
 }
 h3
 {
@@ -158,52 +185,117 @@ h3
 {
     width: 214px;
     left: 29px;
+    Font-family: Roboto Condensed;
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 29px;
 }
 .paragraph
 {
+    Font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color:black;
     width: 314px;
     left: 72px;
+    font-size:16px;
+    
 }
+.circle h3
+{
+    Font-family: Roboto Condensed;
+    Font-style: Bold;
+    Font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    font-weight:700;
+}
+
 .text
 {
     width: 440px;
     left: 48px;
-    font-style: normal;}
-    p{
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-        color: #FFFFFF;
-    }
-    .bottom
-    {
-        width: 1440px;
-        left: 507px;
-        background: #F8F8F8;
-    }
-    .bottom a
-    {
-        width: 224px;
-        left: 19px;
-    }
-    .footer-hr
-    {
-        width: 1100px;
-        left: 2px;
-        background-color: rgba(37, 36, 32, 0.5);
-        
-    }
-    .second-text
-    {
-        width: 1110px;
-        left: 419px;
-    }
-    .basic
-    {
-        color: #ff7500;
-    }
-    .main-page a
-    {
-        color: #ff7500;
-    }
+    font-style: normal;
+}
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.bottom
+{
+    width: 1440px;
+    left: 507px;
+    background: #F8F8F8;
+}
+.bottom a
+{
+    width: 224px;
+    left: 19px;
+}
+.footer-hr
+{
+    width: 1100px;
+    left: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+    
+}
+.second-text
+{
+    width: 1110px;
+    left: 419px;
+}
+.basic
+{
+    color: #ff7500;
+}
+.link-color a
+{
+    color: #ff7500;
+}
+.text-content h2
+{
+    Font-family: Roboto Condensed;
+    Font-style: Bold;
+    Font-size: 40px;
+    Line-height: 48px;
+    Letter-spacing: 0.5px;
+}
+.text p
+{
+    Font-family: Roboto;
+    Font-size: 16px;
+    Line-height: 24px;
+    color:#FFFFFF;
+}
+.text-content a
+{
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 13px;
+    Line-height: 15px;
+    Letter-spacing: 0.5px;
+    color:#ffffff;
+    background-color: #ff7500;
+}
+.black li {
+    Font-family: Roboto;
+    Font-size: 16px;
+    Line-height: 19px;
+    color:#252420;
+}
+.main-page li{
+    Font family: Roboto;
+    Font-size: 16px;
+    Line-height: 19px;
+    color:#252420;
+}
+.footer ul{
+    Font-family: Roboto;
+    Font-size: 16px;
+    Line-height: 19px;
+    color:#252420;
+}
