@@ -281,6 +281,10 @@ margin-right: 68px;
 }
 .social-networks{
   margin-right: 16px;
+  display: block;
+}
+.social-networks svg{
+  display: block;
 }
 .social-networks:last-child{
 margin-right: 0;
